@@ -1,0 +1,21 @@
+
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "message": "Project name"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "message": "Project description",
+      "default": "simple webpack starter for eva.js"
+    },
+    "author": {
+      "type": "string",
+      "message": "Author"
+    }
+  },
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev{{#electron}}\n\nIn another tab:\n\n  npm run app{{/electron}}"
+}
