@@ -24,9 +24,9 @@ app.model({
   },
   actions: {
     fetchRepos({commit}) {
+      commit('FETCH_START')
       axios.get('https://api.github.com/users/egoist/repos')
         .then(res => {
-          commit('FETCH_START')
           commit('FETCHED_REPOS', res.data)
           commit('FETCH_DONE')
         })
