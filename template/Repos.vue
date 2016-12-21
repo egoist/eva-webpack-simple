@@ -2,7 +2,7 @@
   <div class="repos">
     <p v-if="fetching">Loading...</p>
     <div class="repo" v-for="repo in repos">
-      <h3>{{ repo.name }}</h3>
+      <h3>\{{ repo.full_name }}</h3>
       <p v-html="repo.description"></p>
     </div>
   </div>
