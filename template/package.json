@@ -16,6 +16,7 @@
     "eva.js": "^1.2.2"
   },
   "devDependencies": {
+    "vbuild": "^4.3.3",
     "vue-loader": "^10.0.0",
     "vue-template-compiler": "^2.1.3"
   }

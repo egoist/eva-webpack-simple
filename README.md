@@ -3,13 +3,12 @@
 A webpack example for [eva.js](https://github.com/egoist/eva.js)
 
 ```bash
-# we use vbuild to run webpack
-# and vue-cli to generate template
-$ npm i -g vbuild vue-cli
+# use vue-cli to generate template
+$ yarn global add vue-cli
 
 $ vue init egoist/eva-webpack-simple my-project
 
 $ cd my-project
-$ npm install
-$ npm run dev
+$ yarn
+$ yarn dev
 ```
