@@ -1,10 +1,10 @@
-import eva from 'eva.js'
+import EVA from 'eva.js'
 import axios from 'axios'
 import App from './App'
 import Home from './Home'
 import Repos from './Repos'
 
-const app = eva()
+const app = new EVA()
 
 app.model({
   state: {

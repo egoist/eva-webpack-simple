@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.14.0",
-    "eva.js": "^0.1.1"
+    "eva.js": "^1.2.2"
   },
   "devDependencies": {
     "vue-loader": "^10.0.0",
