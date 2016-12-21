@@ -14,5 +14,9 @@
   "dependencies": {
     "axios": "^0.14.0",
     "eva.js": "^0.1.1"
+  },
+  "devDependencies": {
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.3"
   }
 }
